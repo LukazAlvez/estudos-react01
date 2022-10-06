@@ -1,0 +1,29 @@
+.navBar{
+    height: 60px;
+    width: 100%;
+    background-color: lightcoral;
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+ul li{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+ul li:hover{
+    background-color: rgb(202, 99, 99);
+}

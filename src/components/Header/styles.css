@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    color: aliceblue;
+    transition: ease-in-out 0.3s;
+}
+
+.btns{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns button{
+    height: 300px;
+    width: 60px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: white;
+}
+
+.btns button:hover{
+    background-color: rgba(0,0,0,0.2);
+}
